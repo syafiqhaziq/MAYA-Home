@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>onboard_onboardIntoMAE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bf5e366-b6de-4ba9-9cf9-11f3860a20c7</testCaseGuid>
+   <variable>
+      <defaultValue>'sanjayntb'</defaultValue>
+      <description></description>
+      <id>514189f4-0f50-4fc5-8f87-6b6e5311aa3f</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sanjay@49'</defaultValue>
+      <description></description>
+      <id>8d62a261-211f-48ea-9b7d-0b01f111d556</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'MaeSend'</defaultValue>
+      <description></description>
+      <id>d1e138ee-9fb6-43c8-9a22-b587b3e537e6</id>
+      <masked>true</masked>
+      <name>contactName</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Users/a80000502/Katalon Studio/MAE3/androidapp/app-sit-universal-release.apk'</defaultValue>
+      <description></description>
+      <id>7250856c-8bc7-4f3a-b3f7-ad8eec4bb898</id>
+      <masked>false</masked>
+      <name>appPath1</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>MayaHome</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/vinayeddla/Desktop/MAE/app-sit-universal-release.apk'</initValue>
+      <name>appPathSIT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>appAlreadyOpened</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/vinayeddla/Desktop/MAE/app-uat-universal-release.apk'</initValue>
+      <name>appPathUAT</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

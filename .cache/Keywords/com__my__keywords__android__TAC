@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "7459243DDB2AC8712B11EFD5AE2B7A3C",
+  "keywordClasses": [
+    {
+      "name": "com.my.keywords.android.TAC",
+      "keywordMethods": [
+        {
+          "name": "otpvalidation",
+          "parameters": [
+            {
+              "name": "OTP",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
