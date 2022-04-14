@@ -25,36 +25,29 @@ import internal.GlobalVariable as GlobalVariable
 import javassist.bytecode.stackmap.BasicBlock.Catch as Catch
 import org.openqa.selenium.Keys as Keys
 
-try {
-    //Mobile.startExistingApplication('com.maybank2u.life.uat', FailureHandling.OPTIONAL)
 
+    //Mobile.startExistingApplication('com.maybank2u.life.uat', FailureHandling.OPTIONAL)
     //    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
     //
     //    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
     Mobile.setText(findTestObject('MayaHome/mayahome - MobileSpy 1/propertyagent - Txtfield'), findTestData('mayahomeCredentials').getValue(
-            5, 2), 0)
+            2, 1), 0)
 
-    def staffNumber = Mobile.getText(findTestObject('MayaHome/mayahome - MobileSpy4/staffNumberEnter - Txt'), 0)
+    def staffNumber = Mobile.getText(findTestObject('MayaHome/mayahome - MobileSpy 4/staffNumberEnter - Txt'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/agentselectionconfirm - Btn'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/agentSelectConfirm - Btn'), 0)
 
     Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.waitForElementPresent(findTestObject('MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt'), 0,FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.waitForElementPresent(findTestObject('MayaHome/mayahome - MobileSpy 4/staffNameHeader - Txt'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt'), 0,FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 4/staffNameHeader - Txt'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy4/staffNameReview - Txt'), 0,FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 4/staffNameReview - Txt'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy4/staffNumberHeader - Txt'), 0,FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 4/staffNumberHeader - Txt'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy4/staffNumberReview - Txt'), staffNumber,FailureHandling.CONTINUE_ON_FAILURE)
+    Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 4/staffNumberReview - Txt'), staffNumber, FailureHandling.CONTINUE_ON_FAILURE)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/agentselectionconfirm - Btn'), 0)
-}
-catch (Exception e) {
-    if (GlobalVariable.isApplicationOpened == false) {
-        Mobile.callTestCase(findTestCase('MayaHome/mayahome_checkEligibilityAgentPropertyName'), null)
-    }
-} 
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/agentSelectYes - Btn'), 0)
 

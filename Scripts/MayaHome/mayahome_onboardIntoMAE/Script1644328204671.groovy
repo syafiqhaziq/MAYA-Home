@@ -27,7 +27,7 @@ import io.appium.java_client.AppiumDriver as AppiumDriver
 //public static void EnablePermission(boolean isEnable) {
 //	DesiredCapabilities.android().setCapability("autoGrantPermissions", isEnable);
 //}
-Mobile.startApplication(GlobalVariable.appPathUAT, false)
+Mobile.startApplication(GlobalVariable.appPathSIT, false)
 
 //RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
 //
@@ -47,7 +47,7 @@ Mobile.tap(findTestObject('Dashboard/dashboardSetUpWalletIcon'), 0)
 Mobile.tap(findTestObject('Login Onboarding/getStartedExistingUserBtn'), 0)
 
 Mobile.setText(findTestObject('Login Onboarding/loginExistingUsernameInputField'), findTestData('mayahomeCredentials').getValue(
-        1, 1), 0)
+        1, 2), 0)
 
 Mobile.hideKeyboard()
 
@@ -58,11 +58,16 @@ Mobile.waitForElementPresent(findTestObject('Login Onboarding/loginExistingMineC
 Mobile.tap(findTestObject('Login Onboarding/loginExistingMineConfirmationBtn'), 0)
 
 Mobile.setText(findTestObject('Login Onboarding/loginPasswordInputField'), findTestData('mayahomeCredentials').getValue(
-        2, 1), 0)
+        2, 2), 0)
 
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
+
+if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/ManageDevices - Header'), 0, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Login Onboarding/ManageDevicesProceed - Btn'), 0)
+} else {
+}
 
 if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/Proceed'), 3, FailureHandling.OPTIONAL)) {
     Mobile.tap(findTestObject('Login Onboarding/Proceed'), 5)
@@ -155,7 +160,7 @@ Mobile.delay(3)
 Mobile.tap(findTestObject('Login Onboarding/TickOTP'), 0)
 
 Mobile.setText(findTestObject('Login Onboarding/onboardNameInputField'), findTestData('mayahomeCredentials').getValue(3, 
-        1), 0)
+        2), 0)
 
 Mobile.hideKeyboard()
 

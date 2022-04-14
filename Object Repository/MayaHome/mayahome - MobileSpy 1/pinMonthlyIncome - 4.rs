@@ -3,7 +3,7 @@
    <description></description>
    <name>pinMonthlyIncome - 4</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>36a1aaf4-f355-4840-a3ae-510d2ef5679f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

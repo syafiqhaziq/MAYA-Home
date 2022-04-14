@@ -22,24 +22,19 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 import io.appium.java_client.AppiumDriver as AppiumDriver
 
-//Mobile.startApplication(GlobalVariable.appPathSIT, false)
-try {
+
     Mobile.startApplication(GlobalVariable.appPathSIT, false)
 
-    Mobile.startExistingApplication('com.maybank2u.life.sit', FailureHandling.STOP_ON_FAILURE)
-
-    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
-
-    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
-
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/dashboard - moreOptionBtn'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn'), 0)
 
     Mobile.delay(3)
 
-    Mobile.swipe(900, 500, 100, 500)
-
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/propertyBetaBtn'), 0)
-
+    if (Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 3/home2u - Btn'), 0, FailureHandling.OPTIONAL)) {
+        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/home2u - Btn'), 0)
+    } else {
+        Mobile.swipe(800, 700, 200, 700, FailureHandling.CONTINUE_ON_FAILURE)
+    }
+    
     if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 0, FailureHandling.OPTIONAL)) {
         Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 3000)
 
@@ -70,12 +65,13 @@ try {
     } else {
     }
     
+    //Call Test Case CEAgentPropertyData
     Mobile.callTestCase(findTestCase('MayaHome/mayahome_CEAgentPropertyData'), null)
 
     Mobile.delay(3)
 
     Mobile.setText(findTestObject('MayaHome/mayahome - MobileSpy 1/propertynameTxt'), findTestData('mayahomeCredentials').getValue(
-            2, 2), 0)
+            2, 3), 0)
 
     Mobile.hideKeyboard()
 
@@ -87,19 +83,15 @@ try {
 
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/propertyimageBtn'), 0)
 
-    Mobile.scrollToText('Developer', FailureHandling.STOP_ON_FAILURE)
+    Mobile.scrollToText('Select property', FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/selectpropertyBtn'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/selectpropertyApplyMortgage - Btn'), 0)
 
+    //Call Test Case CEUnitType
     Mobile.callTestCase(findTestCase('MayaHome/mayahome_CEUnitType'), null)
 
+    //Call Test Case CEReviewApplication
     Mobile.callTestCase(findTestCase('MayaHome/mayahome_CEReviewApplication'), null)
 
     Mobile.delay(3)
-}
-catch (Exception e) {
-    if (GlobalVariable.isApplicationOpened == false) {
-        Mobile.callTestCase(findTestCase('MayaHome/mayahome_applyMortgage'), null)
-    }
-} 
 

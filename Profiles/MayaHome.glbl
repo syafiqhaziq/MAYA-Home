@@ -19,4 +19,9 @@
       <initValue>'/Users/vinayeddla/Desktop/MAE/app-uat-universal-release.apk'</initValue>
       <name>appPathUAT</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pass@9999'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

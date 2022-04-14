@@ -86,7 +86,6 @@ Mobile.tap(findTestObject('Login Onboarding/loginPinTickBtn'), 0)
 Mobile.delay(2)
 
 //Mobile.waitForElementPresent(findTestObject('Dashboard/dashboardSetUpWalletIcon'), 50)
-
 Mobile.tap(findTestObject('Login Onboarding/PIN1'), 0)
 
 Mobile.tap(findTestObject('Login Onboarding/PIN1'), 0)

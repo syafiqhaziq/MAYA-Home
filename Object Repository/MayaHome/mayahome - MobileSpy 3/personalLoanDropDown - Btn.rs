@@ -3,7 +3,7 @@
    <description></description>
    <name>personalLoanDropDown - Btn</name>
    <tag></tag>
-   <elementGuidId>0be3e72e-9dd1-40fa-8b53-33f92c92cc7e</elementGuidId>
+   <elementGuidId>4a25acf5-4747-4981-a42c-0e2f30d98848</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>7</value>
+      <value>8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -153,6 +153,6 @@
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]</value>
    </webElementProperties>
-   <locator>//*[@class = 'android.view.ViewGroup' and @index = '7']</locator>
+   <locator>//*[@class = 'android.view.ViewGroup' and @index = '8']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

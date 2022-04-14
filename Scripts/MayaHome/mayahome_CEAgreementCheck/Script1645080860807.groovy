@@ -25,42 +25,34 @@ import internal.GlobalVariable as GlobalVariable
 import javassist.bytecode.stackmap.BasicBlock.Catch as Catch
 import org.openqa.selenium.Keys as Keys
 
-try {
-    
-	//Mobile.startExistingApplication('com.maybank2u.life.uat', FailureHandling.OPTIONAL)
-
+//Mobile.startExistingApplication('com.maybank2u.life.uat', FailureHandling.OPTIONAL)
 //    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
 //    
 //    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
-	
-    Mobile.scrollToText('Check Eligibility')
+if (Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 2/header6DigitPin - Txt'), 0, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 1'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/checkeligibility - Btn'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 2'), 0)
 
-    if (Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 2/header6DigitPin - Txt'), 0, FailureHandling.OPTIONAL)) {
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 1'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 3'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 2'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 4'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 3'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 5'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 4'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 6'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 5'), 0)
-
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinlogin - 6'), 0)
-
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/termagreement - tickBtn'), 0)
-
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/confirm - Btn'), 0)
-
-        Mobile.delay(3)
-    } else {
-    }
+    Mobile.delay(3)
+} else {
 }
-catch (Exception e) {
-    if (GlobalVariable.isApplicationOpened == false) {
-        Mobile.callTestCase(findTestCase('MayaHome/mayahome_checkEligibilityAgreementCheck'), null)
-    }
-} 
+
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/checkEligibility - Header'), 0)
+
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/checkEligibilityAgreement - Header'), 0)
+
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/checkEligibilityAgreement - Txt'), 0)
+
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/termagreement - tickBtn'), 0)
+
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/confirm - Btn'), 0)
 

@@ -25,15 +25,15 @@ import internal.GlobalVariable as GlobalVariable
 import javassist.bytecode.stackmap.BasicBlock.Catch as Catch
 import org.openqa.selenium.Keys as Keys
 
-try {
+
     //    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
     //
     //    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionTitle - dropdownBtn'), 0)
 
-    Mobile.scrollToText('Others')
+    Mobile.scrollToText('Tuan')
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy4/blankScreen - PersonalDetail'), 0)
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 4/blankScreen - PersonalDetail'), 0)
 
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionResident - dropdownBtn'), 0)
 
@@ -99,10 +99,5 @@ try {
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/save next - Btn'), 0)
-}
-catch (Exception e) {
-    if (GlobalVariable.isApplicationOpened == false) {
-        Mobile.callTestCase(findTestCase('Test Cases/MayaHome/mayahome_checkEligibilityStatusInfo'), 0)
-    }
-} 
+
 

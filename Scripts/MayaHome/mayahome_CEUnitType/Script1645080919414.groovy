@@ -25,21 +25,22 @@ import internal.GlobalVariable as GlobalVariable
 import javassist.bytecode.stackmap.BasicBlock.Catch as Catch
 import org.openqa.selenium.Keys as Keys
 
-try {
-    Mobile.waitForElementPresent(findTestObject('MayaHome/mayahome - MobileSpy 2/headerPropertyName(UnitType) - Txt'), 5)
+Mobile.waitForElementPresent(findTestObject('MayaHome/mayahome - MobileSpy 2/headerPropertyName(UnitType) - Txt'), 5)
 
-    //    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
-    //
-    //    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame'), 0)
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/UTpropertyName - Txt'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/unitselectionconfirm - Btn'), 0)
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/UTpropertyLayout - Img'), 0)
 
-    Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-}
-catch (Exception e) {
-    if (GlobalVariable.isApplicationOpened == false) {
-        Mobile.callTestCase(findTestCase('MayaHome/mayahome_checkEligibilityUnitType'), null)
-    }
-} 
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/UTpropertyPrice - Txt'), 0)
+
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame'), 0)
+
+//    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
+//
+//    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame'), 0)
+
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/unitselectionconfirm - Btn'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
