@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DF21FC2C3CCC11F3897AF72B1CA87FDE",
+  "keywordClasses": [
+    {
+      "name": "StopRestartMobileApp",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

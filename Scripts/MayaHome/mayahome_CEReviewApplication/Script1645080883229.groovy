@@ -30,8 +30,6 @@ import org.openqa.selenium.Keys as Keys
 //    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
 //
 //    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
-Mobile.startExistingApplication('com.maybank2u.life.sit', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/propertyPrice - Txtfield'), 0)
 
 'Change row on test data for different Property Price'
@@ -166,9 +164,9 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 if (Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 2/successStatement - Txt'), 0, FailureHandling.OPTIONAL)) {
     Mobile.swipe(500, 2000, 500, 1350)
 
-    Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
     Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 4/reviewApp - propertyName'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+    Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
     Mobile.getText(findTestObject('MayaHome/mayahome - MobileSpy 4/reviewApp - propertyName'), 0)
 
@@ -246,9 +244,17 @@ if (Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 2/
 
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 2/applynow - Btn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 2/successAppliedOkay - Btn'), 0)
+    Mobile.hideKeyboard()
 
-    Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 2/propertyApplicationCard(1) - Btn'), 0)
+    Mobile.callTestCase(findTestCase('MayaHome/mayahome_AIPsubmission'), null)
+
+    if (Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 2/successAppliedOkay - Btn'), 0)) {
+        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 2/successAppliedOkay - Btn'), 0)
+
+        Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 2/propertyApplicationCard(1) - Btn'), 0)
+    } else {
+        Mobile.callTestCase(findTestCase('MayaHome/mayahome_AIPsubmission'), null)
+    }
 } else if (Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy2/unaffordableStatement - Txt'), 0, FailureHandling.OPTIONAL)) {
     Mobile.swipe(500, 2000, 500, 1250)
 

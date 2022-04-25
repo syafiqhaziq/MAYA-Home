@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Maya Home" time="156.12" tests="5" failures="0" errors="0">
+   <testsuite name="Maya Home" tests="5" failures="0" errors="0" time="156.12" skipped="0" timestamp="2022-03-21 10:42:30" hostname="vinayeddla - localhost" id="Test Suites/Maya Home">
+      <properties>
+         <property name="deviceName" value="samsung SM-G960F (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vinayeddla/git/MAYA-Home/Reports/20220321_104219/Maya Home/20220321_104220"/>
+         <property name="logFiles" value="/Users/vinayeddla/git/MAYA-Home/Reports/20220321_104219/Maya Home/20220321_104220/execution0.log, /Users/vinayeddla/git/MAYA-Home/Reports/20220321_104219/Maya Home/20220321_104220/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vinayeddla - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.20.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.20.2"/>
+         <property name="deviceModel" value="SM-G960F"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="225ac1ea21057ece"/>
+         <property name="deviceName" value="samsung SM-G960F (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/MayaHome/mayahome_CESearchProperties" time="54.956" classname="Test Cases/MayaHome/mayahome_CESearchProperties" status="PASSED">
+         <system-out><![CDATA[2022-03-21 10:42:31 - [TEST_CASE][PASSED] - Test Cases/MayaHome/mayahome_CESearchProperties: Test Cases/MayaHome/mayahome_CESearchProperties
+
+2022-03-21 10:42:31 - [TEST_STEP][PASSED] - try: Delayed 3 second(s)
+
+2022-03-21 10:42:31 - [TEST_STEP][PASSED] - startApplication(appPathUAT, false): Started app at: '/Users/vinayeddla/Desktop/MAE/app-uat-universal-release.apk'
+
+2022-03-21 10:42:31 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-03-21 10:42:31 - [MESSAGE][INFO] - User set preference: ['deviceId', '225ac1ea21057ece']
+
+2022-03-21 10:42:32 - [MESSAGE][INFO] - Appium server started on port 54,010
+
+2022-03-21 10:42:43 - [MESSAGE][PASSED] - Started app at: '/Users/vinayeddla/Desktop/MAE/app-uat-universal-release.apk'
+
+2022-03-21 10:42:43 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn'
+
+2022-03-21 10:42:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:42:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn'
+
+2022-03-21 10:42:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-21 10:42:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-21 10:42:50 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy 3/home2u - Btn"), 0, OPTIONAL)): null
+
+2022-03-21 10:42:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:42:51 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 3/home2u - Btn' is visible
+
+2022-03-21 10:42:51 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 3/home2u - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 3/home2u - Btn'
+
+2022-03-21 10:42:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:42:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 3/home2u - Btn'
+
+2022-03-21 10:42:55 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 0, OPTIONAL)): Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' not found
+
+2022-03-21 10:42:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:15 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' not found
+
+2022-03-21 10:43:15 - [TEST_STEP][PASSED] - else: null
+
+2022-03-21 10:43:15 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield'
+
+2022-03-21 10:43:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield'
+
+2022-03-21 10:43:16 - [TEST_STEP][PASSED] - setText(findTestObject("MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt"), findTestData("mayahomeCredentials").getValue(2, 3), 0): Text 'Taman Ria 2' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-03-21 10:43:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:17 - [MESSAGE][PASSED] - Text 'Taman Ria 2' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-03-21 10:43:17 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-21 10:43:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-21 10:43:19 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-03-21 10:43:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-21 10:43:21 - [TEST_STEP][PASSED] - doubleTap(findTestObject("MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame"), 0): Double tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame'
+
+2022-03-21 10:43:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:23 - [MESSAGE][PASSED] - Double tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame'
+
+2022-03-21 10:43:23 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-03-21 10:43:26 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MayaHome/mayahome_CEAgreementCheck" time="34.898" classname="Test Cases/MayaHome/mayahome_CEAgreementCheck" status="PASSED">
+         <system-out><![CDATA[2022-03-21 10:43:26 - [TEST_CASE][PASSED] - Test Cases/MayaHome/mayahome_CEAgreementCheck: Test Cases/MayaHome/mayahome_CEAgreementCheck
+
+2022-03-21 10:43:26 - [TEST_STEP][PASSED] - try: null
+
+2022-03-21 10:43:26 - [TEST_STEP][PASSED] - scrollToText("Check Eligibility"): Scrolling to text 'Check Eligibility' successfully
+
+2022-03-21 10:43:35 - [MESSAGE][PASSED] - Scrolling to text 'Check Eligibility' successfully
+
+2022-03-21 10:43:35 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/checkeligibility - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/checkeligibility - Btn'
+
+2022-03-21 10:43:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/checkeligibility - Btn'
+
+2022-03-21 10:43:35 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("MayaHome/mayahome - MobileSpy 2/header6DigitPin - Txt"), 0, OPTIONAL)): null
+
+2022-03-21 10:43:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:37 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/header6DigitPin - Txt' is exist
+
+2022-03-21 10:43:37 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinlogin - 1"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 1'
+
+2022-03-21 10:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 1'
+
+2022-03-21 10:43:37 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinlogin - 2"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 2'
+
+2022-03-21 10:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 2'
+
+2022-03-21 10:43:39 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinlogin - 3"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 3'
+
+2022-03-21 10:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 3'
+
+2022-03-21 10:43:41 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinlogin - 4"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 4'
+
+2022-03-21 10:43:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 4'
+
+2022-03-21 10:43:41 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinlogin - 5"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 5'
+
+2022-03-21 10:43:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 5'
+
+2022-03-21 10:43:43 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinlogin - 6"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 6'
+
+2022-03-21 10:43:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinlogin - 6'
+
+2022-03-21 10:43:45 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/termagreement - tickBtn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/termagreement - tickBtn'
+
+2022-03-21 10:43:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/termagreement - tickBtn'
+
+2022-03-21 10:43:56 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/confirm - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/confirm - Btn'
+
+2022-03-21 10:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:43:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/confirm - Btn'
+
+2022-03-21 10:43:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-21 10:44:00 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MayaHome/mayahome_CEAgentPropertyData" time="10.17" classname="Test Cases/MayaHome/mayahome_CEAgentPropertyData" status="PASSED">
+         <system-out><![CDATA[2022-03-21 10:44:00 - [TEST_CASE][PASSED] - Test Cases/MayaHome/mayahome_CEAgentPropertyData: Test Cases/MayaHome/mayahome_CEAgentPropertyData
+
+2022-03-21 10:44:01 - [TEST_STEP][PASSED] - try: Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/agentSelectYes - Btn'
+
+2022-03-21 10:44:01 - [TEST_STEP][PASSED] - setText(findTestObject("MayaHome/mayahome - MobileSpy 1/propertyagent - Txtfield"), findTestData("mayahomeCredentials").getValue(5, 2), 0): Text '00130052' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/propertyagent - Txtfield'
+
+2022-03-21 10:44:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:02 - [MESSAGE][PASSED] - Text '00130052' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/propertyagent - Txtfield'
+
+2022-03-21 10:44:02 - [TEST_STEP][PASSED] - staffNumber = getText(findTestObject("MayaHome/mayahome - MobileSpy4/staffNumberEnter - Txt"), 0): Text of element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNumberEnter - Txt' is: '00130052'
+
+2022-03-21 10:44:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNumberEnter - Txt' is: '00130052'
+
+2022-03-21 10:44:03 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/agentSelectConfirm - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/agentSelectConfirm - Btn'
+
+2022-03-21 10:44:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/agentSelectConfirm - Btn'
+
+2022-03-21 10:44:03 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-03-21 10:44:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-21 10:44:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt' is present
+
+2022-03-21 10:44:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:09 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt' is present
+
+2022-03-21 10:44:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt' is visible
+
+2022-03-21 10:44:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:10 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNameHeader - Txt' is visible
+
+2022-03-21 10:44:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy4/staffNameReview - Txt"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNameReview - Txt' is visible
+
+2022-03-21 10:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:10 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNameReview - Txt' is visible
+
+2022-03-21 10:44:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy4/staffNumberHeader - Txt"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNumberHeader - Txt' is visible
+
+2022-03-21 10:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:10 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNumberHeader - Txt' is visible
+
+2022-03-21 10:44:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MayaHome/mayahome - MobileSpy4/staffNumberReview - Txt"), staffNumber, CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNumberReview - Txt' are matched.
+
+2022-03-21 10:44:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MayaHome/mayahome - MobileSpy4/staffNumberReview - Txt' are matched.
+
+2022-03-21 10:44:10 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/agentSelectYes - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/agentSelectYes - Btn'
+
+2022-03-21 10:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/agentSelectYes - Btn']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MayaHome/mayahome_CEUnitType" time="7.353" classname="Test Cases/MayaHome/mayahome_CEUnitType" status="PASSED">
+         <system-out><![CDATA[2022-03-21 10:44:11 - [TEST_CASE][PASSED] - Test Cases/MayaHome/mayahome_CEUnitType: Test Cases/MayaHome/mayahome_CEUnitType
+
+2022-03-21 10:44:11 - [TEST_STEP][PASSED] - try: Delayed 3 second(s)
+
+2022-03-21 10:44:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MayaHome/mayahome - MobileSpy 2/headerPropertyName(UnitType) - Txt"), 5): Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/headerPropertyName(UnitType) - Txt' is present
+
+2022-03-21 10:44:13 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/headerPropertyName(UnitType) - Txt' is present
+
+2022-03-21 10:44:13 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame'
+
+2022-03-21 10:44:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame'
+
+2022-03-21 10:44:14 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/unitselectionconfirm - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/unitselectionconfirm - Btn'
+
+2022-03-21 10:44:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/unitselectionconfirm - Btn'
+
+2022-03-21 10:44:15 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-03-21 10:44:18 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MayaHome/mayahome_CEReviewApplication" time="48.495" classname="Test Cases/MayaHome/mayahome_CEReviewApplication" status="PASSED">
+         <system-out><![CDATA[2022-03-21 10:44:18 - [TEST_CASE][PASSED] - Test Cases/MayaHome/mayahome_CEReviewApplication: Test Cases/MayaHome/mayahome_CEReviewApplication
+
+2022-03-21 10:44:18 - [TEST_STEP][FAILED] - try: Failed to get text from element (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MayaHome/mayahome - MobileSpy 2/agreedLoanAmount - Txt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at mayahome_CEReviewApplication.run(mayahome_CEReviewApplication:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647830540981.run(TempTestSuite1647830540981.groovy:36)
+)
+
+2022-03-21 10:44:18 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/propertyPrice - Txtfield"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/propertyPrice - Txtfield'
+
+2022-03-21 10:44:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/propertyPrice - Txtfield'
+
+2022-03-21 10:44:19 - [TEST_STEP][PASSED] - propertypriceEnter = findTestData("mayahomeCredentials").getValue(3, 3): null
+
+2022-03-21 10:44:19 - [TEST_STEP][PASSED] - for ([i = 0, i <= 7, (i++)]): null
+
+2022-03-21 10:44:19 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): null
+
+2022-03-21 10:44:19 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-21 10:44:19 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-21 10:44:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-03-21 10:44:20 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN5"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-03-21 10:44:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-03-21 10:44:21 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:21 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:21 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:21 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:21 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:21 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:22 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:24 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:25 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:25 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:26 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "1"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "2"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "3"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "4"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "5"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "6"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "7"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "8"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - if (propertypriceEnter[i] == "9"): null
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check'
+
+2022-03-21 10:44:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check'
+
+2022-03-21 10:44:28 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/downpaymentAmount - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/downpaymentAmount - Btn'
+
+2022-03-21 10:44:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/downpaymentAmount - Btn'
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/downpaymentEnter - Txtfield"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/downpaymentEnter - Txtfield'
+
+2022-03-21 10:44:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/downpaymentEnter - Txtfield'
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - downpaymentEnter = findTestData("mayahomeCredentials").getValue(4, 3): null
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - for ([i = 0, i <= 6, (i++)]): null
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "0"): null
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "1"): null
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "2"): null
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "3"): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-03-21 10:44:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN3"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-03-21 10:44:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "4"): null
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "5"): null
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "6"): null
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "7"): null
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "8"): null
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "9"): null
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:32 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "1"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "2"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "3"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "4"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "5"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "6"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "7"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "8"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "9"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "1"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "2"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "3"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "4"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "5"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "6"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "7"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "8"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "9"): null
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:34 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "1"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "2"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "3"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "4"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "5"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "6"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "7"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "8"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "9"): null
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "1"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "2"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "3"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "4"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "5"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "6"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "7"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "8"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "9"): null
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:36 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "1"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "2"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "3"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "4"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "5"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "6"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "7"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "8"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "9"): null
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "1"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "2"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "3"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "4"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "5"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "6"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "7"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "8"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - if (downpaymentEnter[i] == "9"): null
+
+2022-03-21 10:44:38 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check'
+
+2022-03-21 10:44:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check'
+
+2022-03-21 10:44:39 - [TEST_STEP][PASSED] - propertyPrice = "RM " + getText(findTestObject("MayaHome/mayahome - MobileSpy 2/propertyPrice - Txt"), 0): Text of element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyPrice - Txt' is: '150,000.00'
+
+2022-03-21 10:44:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyPrice - Txt' is: '150,000.00'
+
+2022-03-21 10:44:41 - [TEST_STEP][PASSED] - downpaymentPrice = "RM " + getText(findTestObject("MayaHome/mayahome - MobileSpy 2/downpaymentAmount - Txt"), 0): Text of element 'Object Repository/MayaHome/mayahome - MobileSpy 2/downpaymentAmount - Txt' is: '30,000.00'
+
+2022-03-21 10:44:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/MayaHome/mayahome - MobileSpy 2/downpaymentAmount - Txt' is: '30,000.00'
+
+2022-03-21 10:44:41 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/propertyPriceContinue - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/propertyPriceContinue - Btn'
+
+2022-03-21 10:44:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:44:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/propertyPriceContinue - Btn'
+
+2022-03-21 10:44:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-21 10:44:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-21 10:44:46 - [TEST_STEP][FAILED] - loanAmount = getText(findTestObject("MayaHome/mayahome - MobileSpy 2/agreedLoanAmount - Txt"), 0): Failed to get text from element (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MayaHome/mayahome - MobileSpy 2/agreedLoanAmount - Txt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at mayahome_CEReviewApplication.run(mayahome_CEReviewApplication:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647830540981.run(TempTestSuite1647830540981.groovy:36)
+)
+
+2022-03-21 10:44:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-21 10:45:06 - [MESSAGE][FAILED] - Object Object Repository/MayaHome/mayahome - MobileSpy 2/agreedLoanAmount - Txt not found
+
+2022-03-21 10:45:06 - [MESSAGE][FAILED] - Failed to get text from element (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MayaHome/mayahome - MobileSpy 2/agreedLoanAmount - Txt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at mayahome_CEReviewApplication.run(mayahome_CEReviewApplication:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647830540981.run(TempTestSuite1647830540981.groovy:36)
+)
+
+2022-03-21 10:45:06 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2022-03-21 10:45:06 - [TEST_STEP][PASSED] - if (isApplicationOpened == false): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-21 10:42:30 - [TEST_SUITE][PASSED] - Maya Home: Test Cases/MayaHome/mayahome_CEReviewApplication]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

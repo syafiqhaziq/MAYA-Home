@@ -25,79 +25,60 @@ import internal.GlobalVariable as GlobalVariable
 import javassist.bytecode.stackmap.BasicBlock.Catch as Catch
 import org.openqa.selenium.Keys as Keys
 
+//    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
+//
+//    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionTitle - dropdownBtn'), 0)
 
-    //    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
-    //
-    //    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionTitle - dropdownBtn'), 0)
+Mobile.scrollToText('Tuan')
 
-    Mobile.scrollToText('Tuan')
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 4/blankScreen - PersonalDetail'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 4/blankScreen - PersonalDetail'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionResident - dropdownBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionResident - dropdownBtn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoResidentOption - Bumiputera'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoResidentOption - Bumiputera'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionEducation - dropdownBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionEducation - dropdownBtn'), 0)
+Mobile.scrollToText('Professional Qualification', FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.scrollToText('Professional Qualification', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoEducationOption - Pro Qualify'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoEducationOption - Pro Qualify'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
+Mobile.scrollToText('Employment status')
 
-    Mobile.scrollToText('Employment status')
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionMarital - dropdownBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionMarital - dropdownBtn'), 0)
+Mobile.scrollToText('Single', FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.scrollToText('Single', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoMaritalStatus - Married'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoMaritalStatus - Married'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionReligion - dropdownBtn'), 0)
 
-    if (Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 1/spouseGrossIncome - header'), 0, FailureHandling.OPTIONAL)) {
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/spouseGrossIncome - Txt'), 0)
+Mobile.scrollToText('Others', FailureHandling.STOP_ON_FAILURE)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 2'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoReligion - Hinduism'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionEmpStatus - dropdownBtn'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+Mobile.scrollToText('Unemployed', FailureHandling.STOP_ON_FAILURE)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
-        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
-    } else {
-    }
-    
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionReligion - dropdownBtn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoBusinessClass - dropdownBtn'), 0)
 
-    Mobile.scrollToText('Others', FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Sdn Bhd')
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoReligion - Hinduism'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoOption - SdnBhd'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionEmpStatus - dropdownBtn'), 0)
-
-    Mobile.scrollToText('Unemployed', FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
-
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoBusinessClass - dropdownBtn'), 0)
-
-    Mobile.scrollToText('Sdn Bhd')
-
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoOption - SdnBhd'), 0)
-
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
-
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/save next - Btn'), 0)
-
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/save next - Btn'), 0)
 

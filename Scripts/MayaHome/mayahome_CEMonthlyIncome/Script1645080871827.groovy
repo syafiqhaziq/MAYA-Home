@@ -25,90 +25,96 @@ import internal.GlobalVariable as GlobalVariable
 import javassist.bytecode.stackmap.BasicBlock.Catch as Catch
 import org.openqa.selenium.Keys as Keys
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/monthlyIncome - Txtfield'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/monthlyIncome - Txtfield'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 4'), 1)
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/propertyNameforMonthlyIncome - Header'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/enterDetailMonthlyIncome - Header'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 5'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 5'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 1)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/existingHousingLoan - dropdownBtn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/existingHousingLoan(0) - Btn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 6/existHomeFinancingDropDown - Header'), 0)
 
-    Mobile.delay(3)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/existingHousingLoan - dropdownBtn'), 0)
 
-    //    if (Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 5/homeFinancing - Header'), 0, FailureHandling.OPTIONAL)) {
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 5/homeFinancing - Txt'), 0, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 1'), 1, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 2'), 1, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 0, FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.scrollToText('Non-bank commitments', FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/personalLoanDropDown - Btn'), 0)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/ccDropDown - Btn'), 0)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/clDropDown - Btn'), 0)
-    //
-    //        Mobile.scrollToText('Non-bank commitments', FailureHandling.STOP_ON_FAILURE)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/odDropDown - Btn'), 0)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/nonbankcommitDropDown - Btn'), 0)
-    //    } else {
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/non-bankCommit - Txtfield'), 1)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 2'), 1)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
-    //
-    //        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 0)
-    //    }
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/non-bankCommit - Txtfield'), 1)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/existingHousingLoan(0) - Btn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 2'), 1)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+Mobile.delay(3)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+//    if (Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 5/homeFinancing - Header'), 0, FailureHandling.OPTIONAL)) {
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 5/homeFinancing - Txt'), 0, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 1'), 1, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 2'), 1, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 1, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 0, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.scrollToText('Non-bank commitments', FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/personalLoanDropDown - Btn'), 0)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/ccDropDown - Btn'), 0)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/clDropDown - Btn'), 0)
+//
+//        Mobile.scrollToText('Non-bank commitments', FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/odDropDown - Btn'), 0)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 3/nonbankcommitDropDown - Btn'), 0)
+//    } else {
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/non-bankCommit - Txtfield'), 1)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 2'), 1)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+//
+//        Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 0)
+//    }
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/non-bankCommit - Txtfield'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 2'), 1)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
 
-    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfo - savenextBtn'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
 
-    Mobile.delay(10)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - 0'), 0)
+
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/pinMonthlyIncome - check'), 0)
+
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfo - savenextBtn'), 0)
+
+Mobile.delay(10)
 

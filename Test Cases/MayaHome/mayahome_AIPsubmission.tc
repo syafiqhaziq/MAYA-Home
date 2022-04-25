@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>mayahome_AIPsubmission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e8ac9ca-7b46-426a-9a21-0eb356a61076</testCaseGuid>
+   <variable>
+      <defaultValue>'Pass@9999'</defaultValue>
+      <description></description>
+      <id>bc0c9914-a07b-499c-9f51-b286cb883f7c</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

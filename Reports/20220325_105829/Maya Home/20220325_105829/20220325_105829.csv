@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Maya Home,,,,2022-03-25 10:58:39,2022-03-25 11:00:42,2m - 2.819s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CESearchProperties,,,,2022-03-25 10:58:39,2022-03-25 10:59:17,37.835s,PASSED
+try,,,,2022-03-25 10:58:39,2022-03-25 10:59:17,37.536s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEAgreementCheck,,,,2022-03-25 10:59:17,2022-03-25 10:59:54,37.452s,PASSED
+try,,,,2022-03-25 10:59:17,2022-03-25 10:59:54,37.227s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEAgentPropertyData,,,,2022-03-25 10:59:54,2022-03-25 10:59:55,0.281s,PASSED
+try,,,,2022-03-25 10:59:55,2022-03-25 10:59:55,0.059s,PASSED
+catch (Exception e),,,,2022-03-25 10:59:55,2022-03-25 10:59:55,0.001s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEUnitType,,,,2022-03-25 10:59:55,2022-03-25 11:00:21,26.538s,PASSED
+try,,,,2022-03-25 10:59:55,2022-03-25 11:00:21,26.315s,FAILED
+catch (Exception e),,,,2022-03-25 11:00:21,2022-03-25 11:00:21,0.000s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEReviewApplication,,,,2022-03-25 11:00:21,2022-03-25 11:00:42,20.464s,PASSED
+try,,,,2022-03-25 11:00:22,2022-03-25 11:00:42,20.083s,FAILED
+catch (Exception e),,,,2022-03-25 11:00:42,2022-03-25 11:00:42,0.001s,PASSED

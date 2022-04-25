@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>mayahome_RemoveEligibility</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef011e6c-6635-49be-831b-4fcf7640cdd6</testCaseGuid>
+   <variable>
+      <defaultValue>'Pass@9999'</defaultValue>
+      <description></description>
+      <id>93b262a3-f202-45d3-a782-50d23c89e2b0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
