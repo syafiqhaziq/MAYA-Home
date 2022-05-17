@@ -61,7 +61,7 @@ if (Mobile.verifyElementExist(findTestObject('MayaHome/mayahome - MobileSpy 2/he
 }
 
 //Call Test Case CEAgentPropertyData
-Mobile.callTestCase(findTestCase('MayaHome/mayahome_CEAgentPropertyData'), null)
+Mobile.callTestCase(findTestCase('MayaHome/MH_AgentProperty_01'), null)
 
 Mobile.delay(3)
 
@@ -73,7 +73,7 @@ Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 1/prop
 
 Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 1/enterAddressManually - Btn'), 0)
 
-Mobile.setText(findTestObject('MayaHome/mayahome - MobileSpy 1/propertynameTxt'), findTestData('mayahomeCredentials').getValue(
+Mobile.setText(findTestObject('MayaHome/mayahome - MobileSpy 1/propertynameTxt'), findTestData('propertyDetails').getValue(
         3, 1), 0)
 
 Mobile.hideKeyboard()
@@ -99,10 +99,10 @@ if (Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 1/
 }
 
 //Call Test Case CEUnitType
-Mobile.callTestCase(findTestCase('MayaHome/mayahome_CEUnitType'), null)
+Mobile.callTestCase(findTestCase('MayaHome/MH_SelectUnitType'), null)
 
 //Call Test Case CEReviewApplication
-Mobile.callTestCase(findTestCase('MayaHome/mayahome_CEReviewApplication'), null)
+Mobile.callTestCase(findTestCase('MayaHome/MH_ReviewPage_02'), null)
 
 Mobile.delay(3)
 

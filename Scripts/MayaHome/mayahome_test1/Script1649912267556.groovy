@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.maybank2u.life.sit', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 8/appActiveGreen - Header'), 0)
+Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 6/unitTypeLayoutCard - Btn'), 0)
 
-Mobile.getText(findTestObject('MayaHome/mayahome - MobileSpy 8/appActiveGreen - Header'), 0)
+Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 9/propertyCard - selectUnit', [(unit) : 0]), 0)
+
+unit += 1
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

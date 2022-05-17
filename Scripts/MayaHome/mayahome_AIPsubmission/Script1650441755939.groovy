@@ -258,6 +258,8 @@ Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 7/confirmAndSubmitAIP -
 
 Mobile.waitForElementPresent(findTestObject('MayaHome/mayahome - MobileSpy 7/greatNewsAIP - Header'), 30)
 
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 7/greatNewsAIP - Header'), 0)
 
 Mobile.swipe(500, 1300, 500, 500)
