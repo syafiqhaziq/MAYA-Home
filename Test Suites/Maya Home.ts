@@ -86,25 +86,25 @@
    <testCaseLink>
       <guid>53b70c0a-9213-47bb-b0ec-8af4e56b4f1e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MayaHome/MH_PersonalDetail</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8da1af18-aecf-4598-90c0-b9d23d243f2a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MayaHome/MH_MonthlyIncome</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>859b76d9-2ea9-41b4-87bf-adbc40a1f944</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MayaHome/MH_PendingHousingLoan</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d28b7f6d-fabf-42b0-8880-85ddffd58121</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/MayaHome/MH_ReviewPage_02</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

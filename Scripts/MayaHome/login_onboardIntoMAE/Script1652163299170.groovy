@@ -161,7 +161,7 @@ Mobile.tap(findTestObject('Login Onboarding/TickOTP'), 0)
 
 Mobile.tap(findTestObject('Login Onboarding/onboardNameInputField'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Login Onboarding/onboardNameInputField'), findTestData('loginCredentials').getValue(3, 9), 
+Mobile.setText(findTestObject('Login Onboarding/onboardNameInputField'), findTestData('loginCredentials').getValue(3, 1), 
     0)
 
 Mobile.hideKeyboard()

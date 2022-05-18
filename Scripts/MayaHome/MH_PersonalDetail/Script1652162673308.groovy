@@ -28,6 +28,8 @@ import org.openqa.selenium.Keys as Keys
 //    RunConfiguration.setMobileDriverPreferencesProperty('appPackage', 'com.maybank2u.life.sit')
 //
 //    RunConfiguration.setMobileDriverPreferencesProperty('appActivity', 'com.maybank2u.life.MainActivity')
+Mobile.startExistingApplication('com.maybank2u.life.sit', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.waitForElementPresent(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoPersonalDetails - Header'), 0)
 
 Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoTitle - Header'), 0)
@@ -37,7 +39,7 @@ Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 1/stat
 Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoMaritalStatus - Header'), 0)
 
 'Selecting Title'
-if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionTitle - dropdownBtn'), 'Please Select', 
+if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoTitle - Please Select Txt'), 'Please Select', 
     FailureHandling.OPTIONAL)) {
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionTitle - dropdownBtn'), 0)
 
@@ -129,24 +131,24 @@ if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/sta
 }
 
 'Selecting Employment Status'
-if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionEmpStatus - dropdownBtn'), 
+if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoEmpStatus - Please Select Txt'), 
     'Please Select', FailureHandling.OPTIONAL)) {
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionEmpStatus - dropdownBtn'), 0)
 
-    Mobile.scrollToText('Unemployed', FailureHandling.STOP_ON_FAILURE)
+    Mobile.scrollToText('Outside Labour Force', FailureHandling.STOP_ON_FAILURE)
 
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
 } else {
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionEmpStatus - dropdownBtn'), 0)
 
-    Mobile.scrollToText('Unemployed', FailureHandling.STOP_ON_FAILURE)
+    Mobile.scrollToText('Outside Labour Force', FailureHandling.STOP_ON_FAILURE)
 
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 4/blankScreen - PersonalDetail'), 0)
 }
 
-'Selecting Business Class'
-if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoBusinessClass - dropdownBtn'), 'Please Select', 
-    FailureHandling.OPTIONAL)) {
+'Selecting Business Type'
+if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfobusinessType - please select TXt'), 
+    'Please Select', FailureHandling.OPTIONAL)) {
     Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoBusinessClass - dropdownBtn'), 0)
 
     Mobile.scrollToText('Sdn Bhd')

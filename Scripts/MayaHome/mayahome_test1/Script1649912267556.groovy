@@ -20,3 +20,19 @@ import org.testng.IMethodInterceptor as Keys
 
 Mobile.startExistingApplication('com.maybank2u.life.sit', FailureHandling.CONTINUE_ON_FAILURE)
 
+'Selecting Title'
+if (Mobile.verifyElementText(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoTitle - Please Select Txt'), 'Please Select', 
+    FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionTitle - dropdownBtn'), 0)
+
+    Mobile.scrollToText('Tuan')
+
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusInfoDropDown - doneBtn'), 0)
+} else {
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 1/statusinfoOptionTitle - dropdownBtn'), 0)
+
+    Mobile.scrollToText('Tuan')
+
+    Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 4/blankScreen - PersonalDetail'), 0)
+}
+
