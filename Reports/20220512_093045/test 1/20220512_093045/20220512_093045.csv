@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test 1,,,,2022-05-12 09:30:55,2022-05-12 09:32:20,1m - 25.068s,FAILED
+,,,,,,,
+Test Cases/MayaHome/mayahome_test1,,,,2022-05-12 09:30:55,2022-05-12 09:30:56,1.129s,FAILED
+"setText(findTestObject(""MayaHome/mayahome - MobileSpy 1/propertyagent - Txtfield""), findTestData(""propertyDetails"").getValue(2, 1), 0)",,,,2022-05-12 09:30:56,2022-05-12 09:30:56,0.802s,FAILED
+,,,,,,,
+Test Cases/MayaHome/mayahome_test1 - Copy,,,,2022-05-12 09:30:56,2022-05-12 09:32:20,1m - 23.638s,FAILED
+"startExistingApplication(""com.maybank2u.life.sit"", CONTINUE_ON_FAILURE)",,,,2022-05-12 09:30:57,2022-05-12 09:31:07,10.463s,PASSED
+"waitForElementPresent(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNameHeader - Txt""), 30, CONTINUE_ON_FAILURE)",,,,2022-05-12 09:31:07,2022-05-12 09:31:37,30.056s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNameHeader - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-12 09:31:37,2022-05-12 09:31:58,20.739s,FAILED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNameReview - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-12 09:31:58,2022-05-12 09:31:59,0.652s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNumberHeader - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-12 09:31:59,2022-05-12 09:32:19,20.339s,FAILED
+"verifyElementText(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNumberReview - Txt""), id, OPTIONAL)",,,,2022-05-12 09:32:19,2022-05-12 09:32:20,1.025s,PASSED

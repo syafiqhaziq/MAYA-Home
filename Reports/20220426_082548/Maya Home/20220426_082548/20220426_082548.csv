@@ -1,0 +1,96 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Maya Home,,,,2022-04-26 08:25:57,2022-04-26 08:31:09,5m - 11.962s,FAILED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CESearchProperties,,,,2022-04-26 08:25:57,2022-04-26 08:27:20,1m - 22.598s,PASSED
+"startApplication(appPathSIT, false)",,,,2022-04-26 08:25:58,2022-04-26 08:26:10,11.957s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:10,2022-04-26 08:26:15,5.406s,PASSED
+delay(3),,,,2022-04-26 08:26:15,2022-04-26 08:26:18,3.016s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 3/home2u - Btn""), 0)",,,,2022-04-26 08:26:18,2022-04-26 08:26:22,3.729s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/onboardWelcomeSkipBtn""), 0, OPTIONAL))",,,,2022-04-26 08:26:22,2022-04-26 08:26:42,20.237s,PASSED
+else,,,,2022-04-26 08:26:42,2022-04-26 08:26:42,0.001s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/property - Header""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:42,2022-04-26 08:26:42,0.348s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/discover - Header""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:42,2022-04-26 08:26:43,0.363s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield""), 0)",,,,2022-04-26 08:26:43,2022-04-26 08:26:43,0.571s,PASSED
+"setText(findTestObject(""MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt""), findTestData(""mayahomeCredentials"").getValue(3, 1), 0)",,,,2022-04-26 08:26:43,2022-04-26 08:26:45,2.120s,PASSED
+hideKeyboard(),,,,2022-04-26 08:26:45,2022-04-26 08:26:46,0.886s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-04-26 08:26:46,2022-04-26 08:26:48,2.006s,PASSED
+"waitForElementPresent(findTestObject(""MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame""), 0)",,,,2022-04-26 08:26:48,2022-04-26 08:26:49,1.043s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:49,2022-04-26 08:26:49,0.173s,PASSED
+"doubleTap(findTestObject(""MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame""), 0)",,,,2022-04-26 08:26:49,2022-04-26 08:26:52,2.092s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-04-26 08:26:52,2022-04-26 08:26:55,3.005s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/propertyName - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:55,2022-04-26 08:26:55,0.584s,PASSED
+"propertyName = getText(findTestObject(""MayaHome/mayahome - MobileSpy 6/propertyName - Txt""), 0)",,,,2022-04-26 08:26:55,2022-04-26 08:26:56,0.505s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/propertyPrice - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:56,2022-04-26 08:26:56,0.498s,PASSED
+"propertyPrice = getText(findTestObject(""MayaHome/mayahome - MobileSpy 6/propertyPrice - Txt""), 0)",,,,2022-04-26 08:26:56,2022-04-26 08:26:57,0.450s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/propertySize - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:57,2022-04-26 08:26:57,0.451s,PASSED
+"propertySize = getText(findTestObject(""MayaHome/mayahome - MobileSpy 6/propertySize - Txt""), 0)",,,,2022-04-26 08:26:57,2022-04-26 08:26:58,0.490s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/unitType - txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:26:58,2022-04-26 08:26:58,0.319s,PASSED
+"unitType = getText(findTestObject(""MayaHome/mayahome - MobileSpy 6/unitType - txt""), 0)",,,,2022-04-26 08:26:58,2022-04-26 08:26:59,1.518s,PASSED
+"scrollToText(""Unit Types"")",,,,2022-04-26 08:26:59,2022-04-26 08:27:05,5.767s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/unitType - Header""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:05,2022-04-26 08:27:06,0.684s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/unitTypeVisualCard1 - Img""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:06,2022-04-26 08:27:06,0.500s,PASSED
+"scrollToText(""Check Eligibility"")",,,,2022-04-26 08:27:06,2022-04-26 08:27:18,11.458s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/developer - Header""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:18,2022-04-26 08:27:18,0.224s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/developerNameCEscreen - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:18,2022-04-26 08:27:18,0.208s,PASSED
+"developerName = getText(findTestObject(""MayaHome/mayahome - MobileSpy 6/developerNameCEscreen - Txt""), 0)",,,,2022-04-26 08:27:18,2022-04-26 08:27:19,0.919s,PASSED
+"println(""Property Name: "" + propertyName)",,,,2022-04-26 08:27:19,2022-04-26 08:27:19,0.003s,PASSED
+"println(""Property Price: "" + propertyPrice)",,,,2022-04-26 08:27:19,2022-04-26 08:27:19,0.001s,PASSED
+"println(""Property Size: "" + propertySize)",,,,2022-04-26 08:27:19,2022-04-26 08:27:19,0.000s,PASSED
+"println(""Unit Type: "" + unitType)",,,,2022-04-26 08:27:19,2022-04-26 08:27:19,0.000s,PASSED
+"println(""Developer Name"" + developerName)",,,,2022-04-26 08:27:19,2022-04-26 08:27:19,0.000s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/checkeligibility - Btn""), 0)",,,,2022-04-26 08:27:19,2022-04-26 08:27:20,0.720s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEAgreementCheck,,,,2022-04-26 08:27:20,2022-04-26 08:27:44,24.471s,PASSED
+"if (verifyElementExist(findTestObject(""MayaHome/mayahome - MobileSpy 2/header6DigitPin - Txt""), 0, OPTIONAL))",,,,2022-04-26 08:27:20,2022-04-26 08:27:34,13.619s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/checkEligibility - Header""), 0)",,,,2022-04-26 08:27:34,2022-04-26 08:27:43,9.122s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/checkEligibilityAgreement - Header""), 0)",,,,2022-04-26 08:27:43,2022-04-26 08:27:43,0.161s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/checkEligibilityAgreement - Txt""), 0)",,,,2022-04-26 08:27:43,2022-04-26 08:27:43,0.151s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/termagreement - tickBtn""), 0)",,,,2022-04-26 08:27:43,2022-04-26 08:27:43,0.289s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/confirm - Btn""), 0)",,,,2022-04-26 08:27:43,2022-04-26 08:27:44,0.883s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEAgentPropertyData,,,,2022-04-26 08:27:44,2022-04-26 08:27:55,10.937s,PASSED
+"setText(findTestObject(""MayaHome/mayahome - MobileSpy 1/propertyagent - Txtfield""), findTestData(""mayahomeCredentials"").getValue(2, 1), 0)",,,,2022-04-26 08:27:45,2022-04-26 08:27:48,3.510s,PASSED
+"staffNumber = getText(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNumberEnter - Txt""), 0)",,,,2022-04-26 08:27:48,2022-04-26 08:27:49,0.722s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/agentSelectConfirm - Btn""), 0)",,,,2022-04-26 08:27:49,2022-04-26 08:27:50,1.026s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-04-26 08:27:50,2022-04-26 08:27:52,2.004s,PASSED
+"waitForElementPresent(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNameHeader - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:52,2022-04-26 08:27:54,1.997s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNameHeader - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:54,2022-04-26 08:27:54,0.213s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNameReview - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:54,2022-04-26 08:27:55,0.604s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNumberHeader - Txt""), 0, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:55,2022-04-26 08:27:55,0.168s,PASSED
+"verifyElementText(findTestObject(""MayaHome/mayahome - MobileSpy 4/staffNumberReview - Txt""), staffNumber, CONTINUE_ON_FAILURE)",,,,2022-04-26 08:27:55,2022-04-26 08:27:55,0.164s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/agentSelectYes - Btn""), 0)",,,,2022-04-26 08:27:55,2022-04-26 08:27:55,0.313s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEUnitType,,,,2022-04-26 08:27:55,2022-04-26 08:28:07,12.002s,PASSED
+"waitForElementPresent(findTestObject(""MayaHome/mayahome - MobileSpy 2/headerPropertyName(UnitType) - Txt""), 5)",,,,2022-04-26 08:27:56,2022-04-26 08:27:58,2.915s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/UTpropertyName - Txt""), 0)",,,,2022-04-26 08:27:58,2022-04-26 08:28:00,1.423s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/UTpropertyLayout - Img""), 0)",,,,2022-04-26 08:28:00,2022-04-26 08:28:00,0.381s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/UTpropertyPrice - Txt""), 0)",,,,2022-04-26 08:28:00,2022-04-26 08:28:01,0.279s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame""), 0)",,,,2022-04-26 08:28:01,2022-04-26 08:28:01,0.314s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 2/unittypeCornerLot - Frame""), 0)",,,,2022-04-26 08:28:01,2022-04-26 08:28:01,0.472s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/unitselectionconfirm - Btn""), 0)",,,,2022-04-26 08:28:01,2022-04-26 08:28:02,1.002s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-04-26 08:28:02,2022-04-26 08:28:07,5.003s,PASSED
+,,,,,,,
+Test Cases/MayaHome/mayahome_CEReviewApplication,,,,2022-04-26 08:28:07,2022-04-26 08:31:09,3m - 1.675s,FAILED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/propertyPrice - Txtfield""), 0)",,,,2022-04-26 08:28:08,2022-04-26 08:28:08,0.537s,PASSED
+"propertypriceEnter = findTestData(""mayahomeCredentials"").getValue(4, 1)",,Change row on test data for different Property Price,,2022-04-26 08:28:08,2022-04-26 08:28:08,0.027s,PASSED
+"for ([i = 0, i <= 7, (i++)])",,,,2022-04-26 08:28:08,2022-04-26 08:28:17,9.098s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check""), 0)",,,,2022-04-26 08:28:17,2022-04-26 08:28:18,1.074s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/downpaymentAmount - Btn""), 0)",,,,2022-04-26 08:28:18,2022-04-26 08:28:20,2.085s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/downpaymentEnter - Txtfield""), 0)",,,,2022-04-26 08:28:20,2022-04-26 08:28:21,0.505s,PASSED
+"downpaymentEnter = findTestData(""mayahomeCredentials"").getValue(5, 1)",,Change row on test data for different Downpayment Price,,2022-04-26 08:28:21,2022-04-26 08:28:21,0.085s,PASSED
+"for ([i = 0, i <= 6, (i++)])",,,,2022-04-26 08:28:21,2022-04-26 08:28:29,7.614s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/pinPropertyPrice - check""), 0)",,,,2022-04-26 08:28:29,2022-04-26 08:28:30,1.000s,PASSED
+"propertyPrice = ""RM "" + getText(findTestObject(""MayaHome/mayahome - MobileSpy 2/propertyPrice - Txt""), 0)",,,,2022-04-26 08:28:30,2022-04-26 08:28:31,1.547s,PASSED
+"downpaymentPrice = ""RM "" + getText(findTestObject(""MayaHome/mayahome - MobileSpy 2/downpaymentAmount - Txt""), 0)",,,,2022-04-26 08:28:31,2022-04-26 08:28:31,0.269s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/propertyPriceContinue - Btn""), 0)",,,,2022-04-26 08:28:31,2022-04-26 08:28:32,0.456s,PASSED
+delay(5),,,,2022-04-26 08:28:32,2022-04-26 08:28:37,5.007s,PASSED
+"loanAmount = getText(findTestObject(""MayaHome/mayahome - MobileSpy 2/agreedLoanAmount - Txt""), 0)",,,,2022-04-26 08:28:37,2022-04-26 08:28:37,0.337s,PASSED
+"loanPeriod = getText(findTestObject(""MayaHome/mayahome - MobileSpy 2/agreedLoanPeriod - Txt""), 0)",,,,2022-04-26 08:28:37,2022-04-26 08:28:37,0.224s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/propertyPriceContinue - Btn""), 0)",,,,2022-04-26 08:28:37,2022-04-26 08:28:38,0.460s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-04-26 08:28:38,2022-04-26 08:28:41,3.005s,PASSED
+"callTestCase(findTestCase(""MayaHome/mayahome_CEPersonalDetail""), null)",,,,2022-04-26 08:28:41,2022-04-26 08:29:19,38.146s,PASSED
+"callTestCase(findTestCase(""MayaHome/mayahome_CEMonthlyIncome""), null)",,,,2022-04-26 08:29:19,2022-04-26 08:29:57,37.726s,PASSED
+"if (verifyElementExist(findTestObject(""MayaHome/mayahome - MobileSpy 2/hederAdditionalInfo - Txt""), 0, OPTIONAL))",,,,2022-04-26 08:29:57,2022-04-26 08:30:17,20.056s,PASSED
+else,,,,2022-04-26 08:30:17,2022-04-26 08:30:17,0.000s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-04-26 08:30:17,2022-04-26 08:30:22,5.003s,PASSED
+"if (verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 2/successStatement - Txt""), 0, OPTIONAL))",,,,2022-04-26 08:30:22,2022-04-26 08:31:09,47.127s,PASSED

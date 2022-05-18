@@ -6,10 +6,17 @@
    <comment></comment>
    <testCaseGuid>ea72344f-1c89-4565-8d67-290a8eee446b</testCaseGuid>
    <variable>
-      <defaultValue>0</defaultValue>
+      <defaultValue>1</defaultValue>
       <description></description>
       <id>738571b8-46d0-488e-a277-0a30110baa6a</id>
       <masked>false</masked>
       <name>unit</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>b2b31a48-1508-4786-89b6-5abb966115d0</id>
+      <masked>false</masked>
+      <name>increment</name>
    </variable>
 </TestCaseEntity>

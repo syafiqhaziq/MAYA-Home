@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MH_AgreementCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa9409f2-640f-43e0-8d05-98f4fa057188</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>5452ee45-1b8a-4b37-a1fb-86c15d370283</id>
+      <masked>false</masked>
+      <name>check</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>87400681-4ae6-4971-9839-7324a37f1b22</id>
+      <masked>false</masked>
+      <name>uncheck</name>
+   </variable>
+</TestCaseEntity>

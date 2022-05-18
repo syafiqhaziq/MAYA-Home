@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Maya Home,,,,2022-05-12 09:59:24,2022-05-12 10:00:44,1m - 20.307s,FAILED
+,,,,,,,
+Test Cases/MayaHome/MH_Homepage,,,,2022-05-12 09:59:24,2022-05-12 10:00:12,47.549s,PASSED
+"startApplication(appPathSIT, false)",,,,2022-05-12 09:59:24,2022-05-12 09:59:39,14.290s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-12 09:59:39,2022-05-12 09:59:44,4.923s,PASSED
+delay(3),,,,2022-05-12 09:59:44,2022-05-12 09:59:47,3.016s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 3/home2u - Btn""), 0)",,,,2022-05-12 09:59:47,2022-05-12 09:59:51,3.911s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/onboardWelcomeSkipBtn""), 0, OPTIONAL))",,,,2022-05-12 09:59:51,2022-05-12 10:00:11,20.238s,PASSED
+else,,,,2022-05-12 10:00:11,2022-05-12 10:00:11,0.000s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/property - Header""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-12 10:00:11,2022-05-12 10:00:11,0.417s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 6/discover - Header""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-12 10:00:11,2022-05-12 10:00:12,0.424s,PASSED
+,,,,,,,
+Test Cases/MayaHome/MH_SearchProperties_01,,,,2022-05-12 10:00:12,2022-05-12 10:00:24,12.061s,PASSED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield""), 0)",,,,2022-05-12 10:00:12,2022-05-12 10:00:13,0.581s,PASSED
+"setText(findTestObject(""MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt""), ""!@#$"", 0)",,,,2022-05-12 10:00:13,2022-05-12 10:00:14,1.991s,PASSED
+hideKeyboard(),,,,2022-05-12 10:00:14,2022-05-12 10:00:16,1.299s,PASSED
+"setText(findTestObject(""MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt""), ""12345"", 0)",,,,2022-05-12 10:00:16,2022-05-12 10:00:19,2.880s,PASSED
+hideKeyboard(),,,,2022-05-12 10:00:19,2022-05-12 10:00:19,0.434s,PASSED
+"setText(findTestObject(""MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt""), ""abcd"", 0)",,,,2022-05-12 10:00:19,2022-05-12 10:00:23,3.845s,PASSED
+hideKeyboard(),,,,2022-05-12 10:00:23,2022-05-12 10:00:23,0.449s,PASSED
+"waitForElementPresent(findTestObject(""MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame""), 0)",,,,2022-05-12 10:00:23,2022-05-12 10:00:24,0.185s,PASSED
+"verifyElementVisible(findTestObject(""MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame""), 0, CONTINUE_ON_FAILURE)",,,,2022-05-12 10:00:24,2022-05-12 10:00:24,0.174s,PASSED
+,,,,,,,
+Test Cases/MayaHome/MH_SearchProperties_02,,,,2022-05-12 10:00:24,2022-05-12 10:00:44,20.402s,FAILED
+"tap(findTestObject(""MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield""), 0)",,,,2022-05-12 10:00:24,2022-05-12 10:00:44,20.162s,FAILED

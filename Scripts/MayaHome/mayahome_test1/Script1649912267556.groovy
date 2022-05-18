@@ -16,14 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.testng.IMethodInterceptor as Keys
 
 Mobile.startExistingApplication('com.maybank2u.life.sit', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('MayaHome/mayahome - MobileSpy 6/unitTypeLayoutCard - Btn'), 0)
-
-Mobile.verifyElementVisible(findTestObject('MayaHome/mayahome - MobileSpy 9/propertyCard - selectUnit', [(unit) : 0]), 0)
-
-unit += 1
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Maya Home" time="52.69" tests="3" failures="0" errors="0">
+   <testsuite name="Maya Home" tests="3" failures="0" errors="0" time="52.69" skipped="0" timestamp="2022-05-17 11:00:24" hostname="vinayeddla - localhost" id="Test Suites/Maya Home">
+      <properties>
+         <property name="deviceName" value="samsung SM-G960F (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vinayeddla/git/MAYA-Home/Reports/20220517_110014/Maya Home/20220517_110014"/>
+         <property name="logFiles" value="/Users/vinayeddla/git/MAYA-Home/Reports/20220517_110014/Maya Home/20220517_110014/execution0.log, /Users/vinayeddla/git/MAYA-Home/Reports/20220517_110014/Maya Home/20220517_110014/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vinayeddla - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-G960F"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="225ac1ea21057ece"/>
+         <property name="deviceName" value="samsung SM-G960F (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/MayaHome/MH_Homepage" time="30.306" classname="Test Cases/MayaHome/MH_Homepage" status="PASSED">
+         <system-out><![CDATA[2022-05-17 11:00:24 - [TEST_CASE][PASSED] - Test Cases/MayaHome/MH_Homepage: Test Cases/MayaHome/MH_Homepage
+
+2022-05-17 11:00:24 - [TEST_STEP][PASSED] - startApplication(appPathSIT, false): Started app at: '/Users/vinayeddla/Desktop/MAE/app-sit-universal-release.apk'
+
+2022-05-17 11:00:25 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-05-17 11:00:25 - [MESSAGE][INFO] - User set preference: ['deviceId', '225ac1ea21057ece']
+
+2022-05-17 11:00:26 - [MESSAGE][INFO] - Appium server started on port 49,606
+
+2022-05-17 11:00:37 - [MESSAGE][PASSED] - Started app at: '/Users/vinayeddla/Desktop/MAE/app-sit-universal-release.apk'
+
+2022-05-17 11:00:37 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn'
+
+2022-05-17 11:00:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/dashboard - more3dotsBtn'
+
+2022-05-17 11:00:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-17 11:00:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-17 11:00:45 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 3/home2u - Btn"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 3/home2u - Btn'
+
+2022-05-17 11:00:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 3/home2u - Btn'
+
+2022-05-17 11:00:47 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 0, OPTIONAL)): null
+
+2022-05-17 11:00:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:49 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' is visible
+
+2022-05-17 11:00:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 3000): Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' is present
+
+2022-05-17 11:00:50 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' is present
+
+2022-05-17 11:00:50 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn'
+
+2022-05-17 11:00:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn'
+
+2022-05-17 11:00:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy 6/property - Header"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy 6/property - Header' is visible
+
+2022-05-17 11:00:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:54 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 6/property - Header' is visible
+
+2022-05-17 11:00:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy 6/discover - Header"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy 6/discover - Header' is visible
+
+2022-05-17 11:00:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:54 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 6/discover - Header' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MayaHome/MH_SearchProperties_01" time="10.132" classname="Test Cases/MayaHome/MH_SearchProperties_01" status="PASSED">
+         <system-out><![CDATA[2022-05-17 11:00:54 - [TEST_CASE][PASSED] - Test Cases/MayaHome/MH_SearchProperties_01: Test Cases/MayaHome/MH_SearchProperties_01
+
+2022-05-17 11:00:55 - [TEST_STEP][PASSED] - tap(findTestObject("MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield"), 0): Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield'
+
+2022-05-17 11:00:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 1/Search properties - Txtfield'
+
+2022-05-17 11:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt"), "!@#$", 0): Text '!@#$' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:00:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:00:58 - [MESSAGE][PASSED] - Text '!@#$' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:00:58 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-05-17 11:00:59 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-05-17 11:00:59 - [TEST_STEP][PASSED] - setText(findTestObject("MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt"), "12345", 0): Text '12345' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:00:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:02 - [MESSAGE][PASSED] - Text '12345' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:01:02 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-05-17 11:01:03 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-05-17 11:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt"), "Resi", 0): Text 'Resi' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:01:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:04 - [MESSAGE][PASSED] - Text 'Resi' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:01:04 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-05-17 11:01:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-05-17 11:01:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame"), 0): Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is present
+
+2022-05-17 11:01:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:04 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is present
+
+2022-05-17 11:01:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is visible
+
+2022-05-17 11:01:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:05 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MayaHome/MH_SearchProperties_02" time="12.019" classname="Test Cases/MayaHome/MH_SearchProperties_02" status="PASSED">
+         <system-out><![CDATA[2022-05-17 11:01:05 - [TEST_CASE][PASSED] - Test Cases/MayaHome/MH_SearchProperties_02: Test Cases/MayaHome/MH_SearchProperties_02
+
+2022-05-17 11:01:05 - [TEST_STEP][PASSED] - setText(findTestObject("MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt"), findTestData("propertyDetails").getValue(3, 1), 0): Text 'Kinabalu Residence' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:01:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:08 - [MESSAGE][PASSED] - Text 'Kinabalu Residence' has been set to element 'Object Repository/MayaHome/mayahome - MobileSpy 1/searchproperties - editTxt'
+
+2022-05-17 11:01:08 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-05-17 11:01:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-05-17 11:01:08 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-05-17 11:01:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-05-17 11:01:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame"), 0): Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is present
+
+2022-05-17 11:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:12 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is present
+
+2022-05-17 11:01:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is visible
+
+2022-05-17 11:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:12 - [MESSAGE][PASSED] - Element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame' is visible
+
+2022-05-17 11:01:12 - [TEST_STEP][PASSED] - doubleTap(findTestObject("MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame"), 0): Double tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame'
+
+2022-05-17 11:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-05-17 11:01:14 - [MESSAGE][PASSED] - Double tapped on element 'Object Repository/MayaHome/mayahome - MobileSpy 2/propertyDisplayCard - Frame'
+
+2022-05-17 11:01:14 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-05-17 11:01:17 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-17 11:00:24 - [TEST_SUITE][PASSED] - Maya Home: Test Cases/MayaHome/MH_SearchProperties_02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
